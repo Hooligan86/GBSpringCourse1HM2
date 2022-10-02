@@ -25,7 +25,6 @@ public class FirstServlet extends HttpServlet {
         listOfProducts.add(new Product(8,"spaghetti", 4.0d));
         listOfProducts.add(new Product(9,"beer", 3.5d));
         listOfProducts.add(new Product(10,"potato", 2.0d));
-//        out.printf("Product id: %d, title: %s, cost: %d", product.getId(), product.getTitle(),product.getCost() );
         for (Product listOfProduct : listOfProducts) {
             out.printf("<html><body><h3>Product id: "+ listOfProduct.getId() + " title: " + listOfProduct.getTitle() + " cost: " + listOfProduct.getCost() + "</h3></body></html>\n");
         }
