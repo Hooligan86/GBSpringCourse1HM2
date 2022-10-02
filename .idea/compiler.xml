@@ -10,4 +10,10 @@
       </profile>
     </annotationProcessing>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="$USER_HOME$/.jdks/corretto-17.0.4" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="hm2" options="" />
+    </option>
+  </component>
 </project>
